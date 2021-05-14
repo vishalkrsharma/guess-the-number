@@ -126,8 +126,9 @@ h1 {
 
     .again {
         top: 4rem;
-        transform: translateX(50%) scale(.8);
-    }
+        right: 0;
+        transform: translateX(50%) scale(.6);
+    }  
 
     main {
         margin-top: 30px;
@@ -137,7 +138,7 @@ h1 {
     }
 
     .message {
-        margin-bottom: 0;
+        margin-bottom: 5%;
     }
 
     .left {
