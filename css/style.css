@@ -118,6 +118,16 @@ h1 {
 
 @media (max-width:1000px) {
 
+    .header {
+        height: 36vh;
+    }
+
+    h1 {
+        left: 0;
+        top: 40%;
+        transform: scale(.8);
+    }
+
     .between {
         right: 0;
         width: 100%;
@@ -126,8 +136,8 @@ h1 {
 
     .again {
         top: 4rem;
-        right: 0;
-        transform: translateX(50%) scale(.6);
+        left:50%;
+        transform: translateX(-50%) scale(.6);
     }  
 
     main {
@@ -137,8 +147,15 @@ h1 {
         height: 54vh;
     }
 
+    .guess {
+        margin-top: 15%;
+    }
+
     .message {
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+    }
+    .check {
+        transform: scale(.8);
     }
 
     .left {
