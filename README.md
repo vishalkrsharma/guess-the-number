@@ -1,5 +1,7 @@
 # Guess The Number
 
+Play At ::: https://vishalkrsharma.github.io/guess-the-number/
+
 This is a simple game in which the player need to guess a number **(Between 1 and 20)**.
 Press the button '**Again!**' to play again.
 
