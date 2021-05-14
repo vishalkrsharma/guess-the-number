@@ -1,27 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: "Press Start 2P", sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     color: #eee;
     background-color: #222;
     /* background-color: #60b347; */
 }
 
 /* LAYOUT */
+
 header {
     position: relative;
-    height: 35vh;
+    height: 34vh;
     border-bottom: 7px solid #eee;
 }
 
@@ -30,6 +27,7 @@ main {
     color: #eee;
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -116,4 +114,37 @@ h1 {
 
 .label-score {
     margin-bottom: 2rem;
+}
+
+@media (max-width:1000px) {
+
+    .between {
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .again {
+        top: 4rem;
+        transform: translateX(50%) scale(.8);
+    }
+
+    main {
+        margin-top: 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 54vh;
+    }
+
+    .message {
+        margin-bottom: 0;
+    }
+
+    .left {
+        width: 60%;
+    }
+
+    .right {
+        width: 90%;
+    }
 }
